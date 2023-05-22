@@ -1,0 +1,58 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  align-items: center;
+  gap: 25px;
+  padding: 20px 15px 20px 5px;
+  width: 400px;
+  border-radius: 4px;
+  background-color: rgb(243 243 131);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input {
+  padding: 4px 6px;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  &:focus {
+    outline: 1px solid #1d65b8;
+  }
+}
+
+button {
+  background: linear-gradient(to bottom right, #4782ef, #5ad0ff);
+  margin-right: 5px;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  transition: box-shadow 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+      -0.125rem -0.125rem 1rem rgba(71, 110, 239, 0.5),
+      0.125rem 0.125rem 1rem rgba(90, 208, 255, 0.5);
+  }
+  &:active {
+    background: linear-gradient(to bottom right, #5ad0ff, #4782ef);
+  }
+}

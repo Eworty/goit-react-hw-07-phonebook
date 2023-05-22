@@ -1,0 +1,14 @@
+.error {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  color: red;
+}
+
+.title {
+  color: red;
+  font-weight: 500;
+}
